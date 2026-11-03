@@ -17,6 +17,7 @@
 ## 关于人格卡
 
 - **人设来源**：干员的性格、爱好、特点等人物设定，均由 AI 分析《明日方舟》剧情得到。
+- **制作工具**：使用 Claude Code 辅助阅读剧情与干员资料，梳理人物设定、记忆和人物关系，并编写精简版与完整版人格卡。
 - **分析模型**：Anthropic Claude Opus 5.5，推理强度 max。
 - **记忆范围**：干员的记忆目前仅限《明日方舟》游戏内的内容，**暂不包含**约 500 年后发生在塔卫二的《明日方舟：终末地》（如再旅者等）。
 
@@ -93,3 +94,9 @@ QQ 交流群：1131116861
 - **[鹰角网络（Hypergryph）](https://www.hypergryph.com/)**：感谢《[明日方舟](https://ak.hypergryph.com/)》官方创造了泰拉世界与这些令人难忘的干员。
 - **[qq-bridge](https://github.com/Derpyu520/qq-bridge)**：让干员们得以走进 QQ 群。
 - **[PRTS Wiki](https://prts.wiki/)**：玩家共同构筑的明日方舟中文 Wiki，整理了详实的剧情与干员资料。
+
+<p align="center">
+  <a href="images/claude.png">
+    <img src="images/claude.png" alt="使用 Claude Code 分析明日方舟剧情的过程截图" width="480">
+  </a>
+</p>
