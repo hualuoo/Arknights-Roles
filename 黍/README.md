@@ -2,16 +2,19 @@
 
 [返回项目首页](../README.md)
 
-本目录提供《明日方舟》干员**黍**的精简版与完整版角色卡，配套的 **GPT-SoVITS 语音模型**已在 [Hugging Face](https://huggingface.co/hualuoo/Arknights-Roles/tree/main/%E9%BB%8D) 开源。
+本目录提供《明日方舟》干员**黍**适用于 **MaiBot、AstrBot、qq-bridge** 的精简版与完整版角色卡，配套的 **GPT-SoVITS 语音模型**已在 [Hugging Face](https://huggingface.co/hualuoo/Arknights-Roles/tree/main/%E9%BB%8D) 开源。
 
 ## 角色卡
 
-| 版本 | 文件 | 使用要求 |
+| 框架 | 精简版 | 完整版 |
 | --- | --- | --- |
-| 精简版 | [黍-精简.md](黍-精简.md) | qq-bridge 默认设置即可使用，角色名为 `黍-精简` |
-| 完整版 | [黍.md](黍.md) | 需调高角色注入上限，角色名为 `黍` |
+| MaiBot | [黍-精简.json](MaiBot/黍-精简.json) | [黍.json](MaiBot/黍.json) |
+| AstrBot | [黍-精简.json](AstrBot/黍-精简.json) | [黍.json](AstrBot/黍.json) |
+| qq-bridge | [黍-精简.md](qq-bridge/黍-精简.md) | [黍.md](qq-bridge/黍.md) |
 
-导入、注入上限配置与角色切换方法见[项目使用说明](../README.md#使用方法)。
+MaiBot 使用 JSON 内容粘贴导入，AstrBot 使用 JSON 文件导入，qq-bridge 则将 Markdown 文件放入 `roles/` 目录。具体导入与角色切换方法见[项目使用说明](../README.md#使用方法)。
+
+使用 qq-bridge 时，精简版角色名为 `黍-精简`，默认注入上限即可使用；完整版角色名为 `黍`，需[调高角色注入上限](../README.md#qq-bridge)。
 
 ## 语音模型
 
