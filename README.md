@@ -2,6 +2,8 @@
 
 # 明日方舟 · 干员角色卡
 
+**QQ 交流群：1131116861**
+
 适用于 [MaiBot](https://github.com/Mai-with-u/MaiBot)、[AstrBot](https://github.com/AstrBotDevs/AstrBot) 和 [qq-bridge](https://github.com/Derpyu520/qq-bridge) 的明日方舟干员角色卡
 
 [![适用于 MaiBot](https://img.shields.io/badge/%E9%80%82%E7%94%A8%E4%BA%8E-MaiBot-8fd6a0)](https://github.com/Mai-with-u/MaiBot)
@@ -112,8 +114,6 @@ AI 的理解难免有偏差或遗漏，与官方设定冲突时请以游戏为�
 - 干员 OOC、剧情理解有误；
 - 想看的干员（许愿）；
 - 使用中遇到的问题。
-
-QQ 交流群：1131116861
 
 ## 致谢
 
