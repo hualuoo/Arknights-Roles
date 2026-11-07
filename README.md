@@ -2,7 +2,7 @@
 
 # 明日方舟 · 干员角色卡
 
-**QQ 交流群：1131116861**
+**QQ 交流群：1131116861。**欢迎访问角色卡分享站点 **[RoleHomes](https://role.homes/)**，一起分享和交流角色卡。
 
 适用于 [MaiBot](https://github.com/Mai-with-u/MaiBot)、[AstrBot](https://github.com/AstrBotDevs/AstrBot) 和 [qq-bridge](https://github.com/Derpyu520/qq-bridge) 的明日方舟干员角色卡
 
