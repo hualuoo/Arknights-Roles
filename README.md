@@ -2,7 +2,7 @@
 
 # 明日方舟 · 干员角色卡
 
-**QQ 交流群：1131116861。**欢迎访问角色卡分享站点 **[RoleHomes](https://role.homes/)**，一起分享和交流角色卡。
+**QQ 交流群：1131116861。欢迎访问角色卡分享站点 **[RoleHomes](https://role.homes/)**，一起分享和交流角色卡。**
 
 适用于 [MaiBot](https://github.com/Mai-with-u/MaiBot)、[AstrBot](https://github.com/AstrBotDevs/AstrBot) 和 [qq-bridge](https://github.com/Derpyu520/qq-bridge) 的明日方舟干员角色卡
 
@@ -53,6 +53,8 @@ AI 的理解难免有偏差或遗漏，与官方设定冲突时请以游戏为�
 ## 语音模型
 
 黍的 **GPT-SoVITS 语音模型**已在 [Hugging Face](https://huggingface.co/hualuoo/Arknights-Roles/tree/main/%E9%BB%8D) 开源，提供**通用模型**及**中立、吃惊、开心、生气、难过**五种情绪模型。每个版本都包含配套的 GPT（`.ckpt`）和 SoVITS（`.pth`）权重。
+
+**底模要求**：GPT-SoVITS **v5turbo**，GPT 底模为 `s1v3.ckpt`，SoVITS 底模为 `s2Gv5turbo.pth`。SoVITS 角色权重采用 **LoRA rank 32**，推理时需配合对应底模加载。
 
 下载链接、权重配对与使用方法见[黍的说明](黍/README.md#语音模型)。
 

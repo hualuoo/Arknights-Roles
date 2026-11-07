@@ -18,6 +18,11 @@ MaiBot 使用 JSON 内容粘贴导入，AstrBot 使用 JSON 文件导入，qq-br
 
 ## 语音模型
 
+模型基于 **GPT-SoVITS v5turbo** 微调，使用前需准备以下底模：
+
+- **GPT 底模**：`s1v3.ckpt`。
+- **SoVITS 底模**：`s2Gv5turbo.pth`，角色权重采用 **LoRA rank 32**，推理时需配合该底模加载。
+
 模型提供**通用模型**以及**中立、吃惊、开心、生气、难过**五种情绪模型。权重托管于 [Hugging Face 的黍目录](https://huggingface.co/hualuoo/Arknights-Roles/tree/main/%E9%BB%8D)：
 
 - GPT 权重：`GPT_weights_v5turbo/` 中的 `.ckpt` 文件。
@@ -36,7 +41,7 @@ MaiBot 使用 JSON 内容粘贴导入，AstrBot 使用 JSON 文件导入，qq-br
 
 ## 使用语音模型
 
-1. 准备支持所发布权重的 GPT-SoVITS 环境，安装与运行方法参见 [GPT-SoVITS 项目](https://github.com/RVC-Boss/GPT-SoVITS)。
+1. 准备支持 **GPT-SoVITS v5turbo** 的环境，并下载上述 GPT 与 SoVITS 底模，安装与运行方法参见 [GPT-SoVITS 项目](https://github.com/RVC-Boss/GPT-SoVITS)。
 2. 根据需要下载通用模型或某种情绪模型的两份权重，在推理界面中分别加载 GPT（`.ckpt`）与 SoVITS（`.pth`）文件。
 3. 提供参考音频及对应文本，输入待合成的文本并生成语音。也可以将角色卡生成的回复文本用于语音合成。
 
